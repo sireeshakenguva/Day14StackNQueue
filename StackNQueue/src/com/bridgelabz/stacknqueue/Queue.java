@@ -30,4 +30,11 @@ public class Queue {
                 }
             }
         }
-}
+        public void dequeue() {
+            if (isEmpty()) {
+                System.out.println("QUEUE is Empty.Please add Data to delete ");
+            } else
+                front = front.next;
+
+        }
+    }
